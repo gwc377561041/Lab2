@@ -10,7 +10,6 @@ import javax.servlet.http.HttpSession;
 import org.apache.struts2.ServletActionContext;
 public class Action {
 	private Pattern p = Pattern.compile("\\?");
-	
 	private List<String> list = new LinkedList<String>();
 	private List<String> list0 = new LinkedList<String>();
 	ServletRequest request = ServletActionContext.getRequest();
